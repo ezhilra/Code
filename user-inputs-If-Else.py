@@ -10,3 +10,18 @@ if sal >= 20000 or age <=25:
         print("Maximum loan amount is 50000")
 else:
     print("You are not eligible for the loan")
+
+############################################################################################################
+#Next problem : Get input for 5 marks, add all of them and find the average. If the average is less than 35,
+#print Additional class is required, else print Good to go
+############################################################################################################
+m1 = int(input("Enter mark1 :"))
+m2 = int(input("Enter mark2 :"))
+m3 = int(input("Enter mark3 :"))
+m4 = int(input("Enter mark4 :"))
+m5 = int(input("Enter mark5 :"))
+if (m1+m2+m3+m4+m5)/5 < 35:
+    print("Additional Class if required")
+else:
+    print("You are good to go")
+
