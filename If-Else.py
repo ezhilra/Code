@@ -1,5 +1,5 @@
-prompt = input("Please say Yes or No\n")
-if prompt == "Yes":
-    print("False")
+mark = input("Please provide the mark\n")
+if mark == 35:
+    print("Pass")
 else:
-    print("True")
+    print("Fail")
