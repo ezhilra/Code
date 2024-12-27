@@ -1,8 +1,11 @@
-perc = int(input("Enter your percentage: "))
-if 70 < perc < 100:
-    name = str(input("Enter your name: "))
-    dept = str(input("Enter your department: "))
-    loc = str(input("Enter your location: "))
-    print("You are eligible")
+#Next example : Loan eligibility check based on age and salary
+sal = int(input("Enter your salary: "))
+age = int(input("Enter your age: "))
+if sal >= 20000 or age <=25:
+    loan_amt = int(input("Enter the loan amount: "))
+    if loan_amt <= 50000:
+        print("You are eligible for the loan")
+    else:
+        print("Maximum loan amount is 50000")
 else:
-    print("You are not eligible")
+    print("You are not eligible for the loan")
