@@ -48,3 +48,15 @@ elif num < 0:
 else:
     print("The number is zero")
 
+#Next example : If a student is below average, average, above average or distinction
+mark = int(input("Please key in the mark: "))
+if mark < 35:
+    print("The student is a below average performer")
+elif 35 <= mark < 60:
+    print("The student is an average performer")
+elif 60 <= mark < 75:
+    print("The student is an above average performer")
+elif 75 >= mark <=100:
+    print("The student is a distinction holder")
+else:
+    print("Please provide a valid mark")
