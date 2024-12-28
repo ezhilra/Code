@@ -10,7 +10,14 @@ for i in range(1,11):
 print("############################################################################################################")
 #Example 3 : Count the odd numbers between 1 and 10
 count=0
-for i in range(1,11):
+for i in range(1,10):
     if i%2!=0:
+        count+=1
+print(count)
+
+#Example 4 : Count the even numbers between 1 and 5
+count=0
+for i in range(1,5):
+    if i%2==0:
         count+=1
 print(count)
