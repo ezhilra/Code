@@ -13,11 +13,31 @@ count=0
 for i in range(1,10):
     if i%2!=0:
         count+=1
-print(count)
+print("The odd numbers between 1 and 10 are: ",count)
 
 #Example 4 : Count the even numbers between 1 and 5
 count=0
 for i in range(1,5):
     if i%2==0:
         count+=1
-print(count)
+print("The even numbers between 1 and 5 are: ",count)
+
+# Example 5 : Count and print the odd and even numbers between 1 and 10
+count=0
+count1=0
+for i in range(1,11):
+    if i%2==0:
+        count+=1
+    else:
+        count1+=1
+print("Even numbers count: ",count)
+print("Odd numbers count: ",count1)
+
+# Example 6 : Count and print the numbers between 1 and 100 that are divisible by 3 and 5
+count = 0
+for i in range(1,101):
+    if i%3==0 and i%5==0:
+        count+=1
+        #print(i)
+print("The number of numbers between 1 and 100, that are divisible by 3 and 5 are: ", count)
+
