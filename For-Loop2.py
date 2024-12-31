@@ -87,6 +87,3 @@ for i in range(n):
 print("The numbers and their cubes are:")
 for i in lst:
     print("Number is",i,"and cube of",i," is:", i**3)
-
-
-
