@@ -1,4 +1,4 @@
-
+"""
 #Example 1 : Print the numbers between 2 numbers
 a = int(input("Enter the 1st number: "))
 b = int(input("Enter the 2nd number: "))
@@ -61,4 +61,18 @@ print("The numbers that have been added to the list are :",list)
 sum = 0
 for sum in list:
     sum += sum
+print("The sum of the numbers is :", sum)
+"""
+
+# Example 9 : Take input for n natural numbers, print the numbers and their sum
+n = int(input("Enter the no. of natural numbers that you want to add: "))
+lst = []
+print("Enter the numbers: ")
+for i in range(n):
+    num = int(input("Enter number " + str(i+1) + ": "))
+    lst.append(num)
+print("The numbers that have been added to the list are :", lst)
+sum = 0
+for sum in lst:
+    sum+=sum
 print("The sum of the numbers is :", sum)
