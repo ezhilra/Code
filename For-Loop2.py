@@ -63,16 +63,30 @@ for sum in list:
     sum += sum
 print("The sum of the numbers is :", sum)
 """
-
+"""
 # Example 9 : Take input for n natural numbers, print the numbers and their sum
-n = int(input("Enter the no. of natural numbers that you want to add: "))
+n = int(input("Enter the number of natural numbers you want to add to the list: "))
 lst = []
-print("Enter the numbers: ")
 for i in range(n):
     num = int(input("Enter number " + str(i+1) + ": "))
     lst.append(num)
-print("The numbers that have been added to the list are :", lst)
+print("The numbers that have been added to the list are :",lst)
+
 sum = 0
 for sum in lst:
-    sum+=sum
+    sum += sum
 print("The sum of the numbers is :", sum)
+"""
+
+# Example 10 : Take input for n numbers and print their cube along with the number
+n = int(input("Enter the number of numbers you want to cube: "))
+lst = []
+for i in range(n):
+    num = int(input("Enter number " + str(i+1) + ": "))
+    lst.append(num)
+print("The numbers and their cubes are:")
+for i in lst:
+    print("Number is",i,"and cube of",i," is:", i**3)
+
+
+
