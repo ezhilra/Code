@@ -1,3 +1,5 @@
+
+#Example 1 : Print the numbers between 2 numbers
 a = int(input("Enter the 1st number: "))
 b = int(input("Enter the 2nd number: "))
 for i in range(a + 1, b):
@@ -47,12 +49,16 @@ for i in range(1, 6):
     sum += i
 print("The sum of first 5 natural numbers is: ", sum)
 
-a=[]
-a.append(10)
-a.append(20)
-a.append(30)
-a.append(40)
-a.append(50)
-b=int(input())
-a.append(b)
-print(a)
+
+# Example 8 : Take input for 10 natural numbers in a list, print the list and print the sum of the numbers
+list = []
+print("Enter 10 natural numbers: ")
+for i in range(10):
+    num=(int(input("Enter number " + str(i+1) + ": ")))
+    list.append(num)
+print("The numbers that have been added to the list are :",list)
+
+sum = 0
+for sum in list:
+    sum += sum
+print("The sum of the numbers is :", sum)
